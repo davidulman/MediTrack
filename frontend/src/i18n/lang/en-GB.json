@@ -1,0 +1,96 @@
+{
+  "login": {
+    "email": "Email",
+    "password": "Password",
+    "login": "Login",
+    "signIn": "Sign In",
+    "loggedIn": "Successfully Logged In",
+    "loggedInAs": "You Are Logged In As",
+    "loggedOut": "You Are Logged Out",
+    "loginExpired": "Your Session Has Expired, Please Login Again"
+  },
+  "register": {
+    "title": "Register To MediTrack",
+    "firstName": "First Name",
+    "lastName": "Last Name",
+    "createMsg": "Account Created Successfully"
+  },
+  "tooltip": {
+    "objectSelector": "Object Selector",
+    "clickToCopy": "Click To Copy",
+    "copied": "Copied",
+    "appSettings": "App Settings",
+    "darkMode": "Dark Mode",
+    "lightMode": "Light Mode"
+  },
+  "settingModal": {
+    "title": "Settings",
+    "language": "Language",
+    "german": "German",
+    "english": "English",
+    "darkMode": "Dark Mode",
+    "dark": "Dark",
+    "light": "Light",
+    "system": "System"
+  },
+  "menu": {
+    "dashboard": "Dashboard",
+    "login": "Login",
+    "register": "Register",
+    "logout": "Logout",
+    "medicalHistory": "Medical History"
+  },
+
+  "medicalHistoryForm": {
+    "header": "Medical History Form",
+    "medicalType": "Medical Type",
+    "medicalDescription": "Description",
+    "startDate": "Start Date",
+    "endDate": "End Date",
+    "notes": "Notes",
+    "severity": "Severity",
+    "doctorName": "Doctor Name",
+    "hospitalName": "Hospital Name",
+    "submit": "Submit",
+    "medicalTypeOptions": [
+      { "value": "medicalConditions", "label": "Medical conditions/diagnoses" },
+      { "value": "surgeries", "label": "Surgeries or procedures undergone" },
+      { "value": "allergies", "label": "Allergies" },
+      { "value": "medications", "label": "Medications" }
+    ],
+
+    "medicalSeverityOptions": [
+      { "value": "mild", "label": "Mild" },
+      { "value": "moderate", "label": "Moderate" },
+      { "value": "severe", "label": "Severe" },
+      { "value": "critical", "label": "Critical" }
+    ],
+    "actions": "Actions",
+    "edit": "Edit",
+    "shareLink": "Share Link",
+    "delete": "Delete",
+    "createNewHistory": "Create New Medical History"
+  },
+
+  "medicalTypeOptions": {
+    "medicalConditions": "Medical conditions/diagnoses",
+    "surgeries": "Surgeries or procedures undergone",
+    "allergies": "Allergies",
+    "medications": "Medications"
+  },
+  "medicalSeverityOptions": {
+    "mild": "Mild",
+    "moderate": "Moderate",
+    "severe": "Severe",
+    "critical": "Critical"
+  },
+
+  "notFound": {
+    "noDataFoundDefault": "No Items Found"
+  },
+
+  "breadCrumbs": {
+    "new": "Create",
+    "edit": "Edit"
+  }
+}

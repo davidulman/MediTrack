@@ -1,0 +1,8 @@
+{
+  "login": {
+    "email": "Email",
+    "password": "Password",
+    "login": "Login",
+    "signIn": "Sign In"
+  }
+}
