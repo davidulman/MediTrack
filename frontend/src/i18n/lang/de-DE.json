@@ -1,8 +1,97 @@
 {
   "login": {
-    "email": "Email",
-    "password": "Password",
-    "login": "Login",
-    "signIn": "Sign In"
+    "email": "E-Mail",
+    "password": "Passwort",
+    "login": "Anmelden",
+    "signIn": "Einloggen",
+    "loggedIn": "Erfolgreich eingeloggt",
+    "loggedInAs": "Sie sind eingeloggt als",
+    "loggedOut": "Sie haben sich abgemeldet",
+    "loginExpired": "Ihre Sitzung ist abgelaufen, bitte melden Sie sich erneut an"
+  },
+  "register": {
+    "title": "Bei MediTrack registrieren",
+    "firstName": "Vorname",
+    "lastName": "Nachname",
+    "createMsg": "Konto erfolgreich erstellt"
+  },
+  "tooltip": {
+    "objectSelector": "Objektauswahl",
+    "clickToCopy": "Zum Kopieren klicken",
+    "copied": "Kopiert",
+    "appSettings": "App-Einstellungen",
+    "darkMode": "Dunkelmodus",
+    "lightMode": "Hellmodus"
+  },
+  "settingModal": {
+    "title": "Einstellungen",
+    "language": "Sprache",
+    "german": "Deutsch",
+    "english": "Englisch",
+    "darkMode": "Dunkelmodus",
+    "dark": "Dunkel",
+    "light": "Hell",
+    "system": "System"
+  },
+  "menu": {
+    "dashboard": "Dashboard",
+    "login": "Anmelden",
+    "register": "Registrieren",
+    "logout": "Abmelden",
+    "medicalHistory": "Medizinische Vorgeschichte"
+  },
+  "medicalHistoryForm": {
+    "header": "Formular für medizinische Vorgeschichte",
+    "medicalType": "Medizinischer Typ",
+    "medicalDescription": "Beschreibung",
+    "startDate": "Startdatum",
+    "endDate": "Enddatum",
+    "notes": "Notizen",
+    "severity": "Schweregrad",
+    "doctorName": "Name des Arztes",
+    "hospitalName": "Name des Krankenhauses",
+    "submit": "Einreichen",
+    "medicalTypeOptions": [
+      {
+        "value": "medicalConditions",
+        "label": "Medizinische Zustände/Diagnosen"
+      },
+      {
+        "value": "surgeries",
+        "label": "Durchgeführte Operationen oder Eingriffe"
+      },
+      { "value": "allergies", "label": "Allergien" },
+      { "value": "medications", "label": "Medikamente" }
+    ],
+    "medicalSeverityOptions": [
+      { "value": "mild", "label": "Leicht" },
+      { "value": "moderate", "label": "Mittel" },
+      { "value": "severe", "label": "Schwer" },
+      { "value": "critical", "label": "Kritisch" }
+    ],
+    "actions": "Aktionen",
+    "edit": "Bearbeiten",
+    "shareLink": "Link teilen",
+    "delete": "Löschen",
+    "createNewHistory": "Neue medizinische Vorgeschichte erstellen"
+  },
+  "medicalTypeOptions": {
+    "medicalConditions": "Medizinische Zustände/Diagnosen",
+    "surgeries": "Durchgeführte Operationen oder Eingriffe",
+    "allergies": "Allergien",
+    "medications": "Medikamente"
+  },
+  "medicalSeverityOptions": {
+    "mild": "Leicht",
+    "moderate": "Mittel",
+    "severe": "Schwer",
+    "critical": "Kritisch"
+  },
+  "notFound": {
+    "noDataFoundDefault": "Keine Einträge gefunden"
+  },
+  "breadCrumbs": {
+    "new": "Erstellen",
+    "edit": "Bearbeiten"
   }
 }
